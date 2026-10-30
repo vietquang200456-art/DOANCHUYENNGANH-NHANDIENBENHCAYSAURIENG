@@ -1,0 +1,14 @@
+# C?u h?nh cho b??c Dataset Audit. ???ng d?n t??ng ??i t?nh t? th? m?c g?c project.
+dataset:
+  root: Dataset
+  splits: [train, val, test]
+  classes:
+    - Leaf_Algal
+    - Leaf_Blight
+    - Leaf_Colletotrichum
+    - Leaf_Healthy
+    - Leaf_Phomopsis
+    - Leaf_Rhizoctonia
+audit:
+  near_duplicate_threshold: 6
+  output_dir: outputs/metrics/dataset_audit
